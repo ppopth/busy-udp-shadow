@@ -38,6 +38,7 @@ int tlogf(const char *format, ...) {
 
 int main() {
     setbuf(stdout, NULL);
+    setbuf(stderr, NULL);
     int sockfd;
     char buffer[MAXLINE];
     char *hello = "Hello from server";

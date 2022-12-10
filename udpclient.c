@@ -76,6 +76,7 @@ void *func(void *vargp) {
 
 int main(int argc, char *argv[]) {
     setbuf(stdout, NULL);
+    setbuf(stderr, NULL);
     if (argc < 2) {
         printf("no server is provided\n");
         exit(EXIT_FAILURE);

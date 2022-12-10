@@ -20,6 +20,7 @@ network:
 hosts:
   client:
     network_node_id: 0
+    quantity: 2
     processes:
     - path: udpclient
       args: server
